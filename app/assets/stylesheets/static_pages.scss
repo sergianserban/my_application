@@ -1,11 +1,7 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-h1 {
-    font-family: "Arial Black", "Arial Narrow", sans-serif;
-    color: #333;
-    text-align: center;
-}
+
 
 /*****************NAVIGATION BAR***********************/
 
@@ -46,7 +42,17 @@ h1 {
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #403636;
 }
+/******************GENERAL************************/
 
+h1 {
+    font-family: "Arial Black", "Arial Narrow", sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    padding-bottom: 200px;
+}
 /*****************FOOTER*************************/
 
 footer {
@@ -55,5 +61,5 @@ footer {
     padding: 1.250em 0; /*20px 0*/
     background-color: #403636;
     color: #fff;
-    margin-top: 20px;
+    margin-bottom: 0;
 }
